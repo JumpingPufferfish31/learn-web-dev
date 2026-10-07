@@ -10,6 +10,12 @@ Both will point to the same db.
 
 We'll use [laragon](https://laragon.org/) to manage the apache server and db for now.
 
+## Topics
+
+### Snippets
+* Text input live preview  
+    ![live preview example](./docs/snippets/text-input-live-preview_example.png)
+
 ## Setup
 
 ### Python
@@ -45,7 +51,8 @@ pip freeze > requirements.txt
 
 ### Python Server
 ```bash
-flask --app python/index run
+cd python
+flask run
 ```
 
 ### PHP Server
